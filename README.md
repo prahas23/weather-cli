@@ -10,7 +10,19 @@ cd weather-cli
 cargo build
 ```
 
-## Running the app
+## Running the program
+Name of the city and the two letter country code should be passed as arguments while running the app.
 ```
 cargo run <city_name> <country_code>
 ```
+**Examples:**
+```
+cargo run London UK
+cargo run Stockholm SE
+cargo run Amsterdam NL
+```
+**Output:**
+
+![image](https://user-images.githubusercontent.com/59818767/176035732-b4a1df80-f10b-4463-8406-69e1197ac957.png)
+
+![image](https://user-images.githubusercontent.com/59818767/176036519-2a8d9ab1-9c10-4836-a2c9-84bb711660a1.png)
