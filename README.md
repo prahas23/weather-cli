@@ -17,7 +17,7 @@ cargo run <city_name> <country_code>
 ```
 **Examples:**
 ```
-cargo run London UK
+cargo run London GB
 cargo run Stockholm SE
 cargo run Amsterdam NL
 ```
