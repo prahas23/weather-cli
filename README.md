@@ -2,7 +2,7 @@
 
 weather-cli is a command-line interface app written in the Rust programming language. The app uses OpenWeatherMap's API to fetch the current weather of any city in the world.
 
-## Building the source code locally
+## Building the source code locally 
 **By cloning this repository:**
 ```
 git clone https://github.com/prahas23/weather-cli.git
@@ -11,6 +11,11 @@ cargo build
 ```
 
 ## Running the program
+You need to have your own OpenWeatherMap API key to run this program.
+Create a `.env` file at the root level of the project and store the API key as follows:
+```
+WEATHER_API_KEY={API key goes here}
+```
 Name of the city and the two letter country code should be passed as arguments while running the app.
 ```
 cargo run <city_name> <country_code>
